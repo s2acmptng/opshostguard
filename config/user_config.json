@@ -1,0 +1,57 @@
+{
+    "_meta": {
+        "description": "User configuration for OpsHostGuard",
+        "version": "12.0.0-alpha",
+        "author": "Alberto Ledo - albertoledo@unex.es",
+        "organization": "IT Department, Faculty of Documentation and Communication Sciences at the University of Extremadura",
+        "lastUpdated": "2024-12-31",
+        "notes": "This file contains global configurations used by PowerShell and PHP scripts."
+    },
+    "Settings": {
+        "GroupName": null,
+        "UpdateHosts": 1,
+        "UsePsUpdate": 1,
+        "ForceUpdate": 1,
+        "UpdateHistoryDays": 5,
+        "Inventory": 1,
+        "UseDNS": 1,
+        "Verbose": 1,
+        "Silent": 0
+    },
+    "HostSettings": {
+        "__comment": "Intervals in seconds.",
+        "recheckIntervalStart": 15,
+        "checkIntervalStop": 30,
+        "updateWaitTime": 5
+    },
+    "NetworkSettings": {
+        "ipPrefix": "192.168."
+    },
+    "DashboardSettings": {
+        "opshostguardDirectory": "opshostguard"
+    },
+    "SessionConfig": {
+        "__comment": "Dashboard session expiration time in seconds.",
+        "sessionTimeout": 150 
+    },
+    "GPOConfiguration": {
+        "gpoName": "Configure WinRM and PSRemoting",
+        "adminHost": "10.254.73.15",
+        "domainName": "fcdyc.unex.es",
+        "targetOU": "OU=Perfiles_Locales,DC=fcdyc,DC=unex,DC=es"
+    },
+    "DatabaseConnection": {
+        "dataBaseHost": "localhost",
+        "dataBaseName": "opshostguard"
+    },
+    "HTMLReport": {
+        "stdReportTitle": "Classroom Hosts Monitoring Report of FCDyC UEx",
+        "hardInventoryReportTitle": "Hardware Inventory Hosts Report of FCDyC UEx"
+    },
+    "EmailNotification": {
+        "smtpServer": "fcdyc-ad1.unex.es",
+        "from": "admin@fcdyc-ad1.unex.es",
+        "to": "admin@fcdyc-ad1.unex.es",
+        "subject": "Daily Alerts in Classrooms FCDYC"
+    }
+}

@@ -1,0 +1,157 @@
+﻿[2024-11-13 10:10:37] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 10:10:37] [Error] [UpdateHosts] Failed to load dependencies modules.
+[2024-11-13 10:53:32] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 10:53:32] [Error] [UpdateHosts] Failed to load dependencies modules.
+[2024-11-13 10:54:45] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 10:54:45] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 10:54:45] [Error] [UpdateHosts] Failed to load valid host group. Terminating script.
+[2024-11-13 11:02:58] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 11:02:58] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:04:53] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 11:04:53] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:10:48] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 11:10:48] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:17:41] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 11:17:41] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:19:10] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 11:19:10] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:21:56] [Info] [UpdateHosts] Loaded dependency module: OpsHostUtils
+[2024-11-13 11:21:56] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:25:29] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:25:29] [Error] [UpdateHosts] Failed to load valid host group. Terminating script.
+[2024-11-13 11:28:00] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:29:19] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:42:11] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 11:43:05] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 11:43:30] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 11:43:42] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 11:45:33] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:00:36] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:00:50] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:01:01] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:01:10] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:02:46] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:02:52] [Info] [Update-UHWindows] Host i2-ca-29 is offline and will not be added to the update list.
+[2024-11-13 12:02:52] [Info] [Update-UHWindows] Host U00200025-BAV02 is online and will be added to the update list.
+[2024-11-13 12:02:55] [Info] [Update-UHWindows] Host n7rcws is offline and will not be added to the update list.
+[2024-11-13 12:03:05] [Info] [Invoke-UHWindowsUpdateNative] Starting the update process on host: localhost
+[2024-11-13 12:03:39] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:03:45] [Info] [Update-UHWindows] Host i2-ca-29 is offline and will not be added to the update list.
+[2024-11-13 12:03:45] [Info] [Update-UHWindows] Host U00200025-BAV02 is online and will be added to the update list.
+[2024-11-13 12:03:48] [Info] [Update-UHWindows] Host n7rcws is offline and will not be added to the update list.
+[2024-11-13 12:03:55] [Info] [Invoke-UHWindowsUpdatePsUpdate] Starting the update process on host: U00200025-BAV02
+[2024-11-13 12:03:55] [Info] [Invoke-UHWindowsUpdatePsUpdate] Starting the update on localhost: U00200025-BAV02
+[2024-11-13 12:04:11] [Info] [Invoke-UHWindowsUpdatePsUpdate] Starting the update process on host: U00200025-BAV02
+[2024-11-13 12:04:11] [Info] [Invoke-UHWindowsUpdatePsUpdate] Starting the update on localhost: U00200025-BAV02
+[2024-11-13 12:04:28] [Info] [Invoke-UHTestUpdates] Verifying updates on host: U00200025-BAV02
+[2024-11-13 12:04:30] [Info] [Invoke-UHTestUpdates] Verification completed for host: U00200025-BAV02
+[2024-11-13 12:04:30] [Info] [Invoke-UHTestUpdates] Verifying updates on host: U00200025-BAV02
+[2024-11-13 12:04:32] [Info] [Invoke-UHTestUpdates] Verification completed for host: U00200025-BAV02
+[2024-11-13 12:04:47] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:04:53] [Info] [Update-UHWindows] Host i2-ca-29 is offline and will not be added to the update list.
+[2024-11-13 12:04:53] [Info] [Update-UHWindows] Host U00200025-BAV02 is online and will be added to the update list.
+[2024-11-13 12:04:56] [Info] [Update-UHWindows] Host n7rcws is offline and will not be added to the update list.
+[2024-11-13 12:05:04] [Info] [Invoke-UHWindowsUpdateNative] Starting the update process on host: localhost
+[2024-11-13 12:05:16] [Info] [Invoke-UHWindowsUpdateNative] Update found: Actualización de inteligencia de seguridad para Microsoft Defender Antivirus - KB2267602 (versión 1.421.263.0) - Canal actual (ampliado)
+[2024-11-13 12:05:16] [Error] [Invoke-UHWindowsUpdateNative] Error while attempting to update/verify host: localhost. Índice fuera de los límites de la matriz.
+[2024-11-13 12:05:16] [Info] [Invoke-UHWindowsUpdateNative] Starting the update process on host: U00200025-BAV02
+[2024-11-13 12:05:46] [Info] [Invoke-UHWindowsUpdateNative] Update found: Actualización de inteligencia de seguridad para Microsoft Defender Antivirus - KB2267602 (versión 1.421.263.0) - Canal actual (ampliado)
+[2024-11-13 12:05:46] [Error] [Invoke-UHWindowsUpdateNative] Error while attempting to update/verify host: U00200025-BAV02. Índice fuera de los límites de la matriz.
+[2024-11-13 12:35:37] [Success] [UpdateHosts] Module imported. Configuration loaded.
+[2024-11-13 12:40:04] [Info] [Update-UHWindows] Host localhost is online and will be added to the update list.
+[2024-11-13 12:40:09] [Info] [Update-UHWindows] Host i2-ca-29 is offline and will not be added to the update list.
+[2024-11-13 12:40:09] [Info] [Update-UHWindows] Host U00200025-BAV02 is online and will be added to the update list.
+[2024-11-13 12:40:12] [Info] [Update-UHWindows] Host n7rcws is offline and will not be added to the update list.
+[2024-11-13 12:45:04] [Info] [Invoke-UHWindowsUpdateNative] Starting the update process on host: localhost
+[2024-11-13 12:45:23] [Info] [Invoke-UHWindowsUpdateNative] Update found: Actualización de inteligencia de seguridad para Microsoft Defender Antivirus - KB2267602 (versión 1.421.263.0) - Canal actual (ampliado)
+[2024-11-13 12:45:23] [Error] [Invoke-UHWindowsUpdateNative] Error while attempting to update/verify host: localhost. Índice fuera de los límites de la matriz.
+[2024-11-13 12:45:23] [Info] [Invoke-UHWindowsUpdateNative] Starting the update process on host: U00200025-BAV02
+[2024-11-13 12:45:45] [Info] [Invoke-UHWindowsUpdateNative] Update found: Actualización de inteligencia de seguridad para Microsoft Defender Antivirus - KB2267602 (versión 1.421.263.0) - Canal actual (ampliado)
+[2024-11-13 12:45:45] [Error] [Invoke-UHWindowsUpdateNative] Error while attempting to update/verify host: U00200025-BAV02. Índice fuera de los límites de la matriz.
+[2024-11-14 08:49:19] [Error] [] Failed to load valid host group. Terminating script.
+[2024-11-14 10:11:20] [Error] [] Failed to load valid host group. Terminating script.
+[2024-11-14 10:17:48] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 16:26:41] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 16:32:37] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 16:48:50] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 16:53:19] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 16:56:00] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 16:58:04] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 17:00:39] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 17:02:12] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 17:04:06] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 17:34:16] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 17:39:13] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 18:04:25] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 18:07:15] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 18:17:39] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 20:44:35] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 20:46:38] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 20:48:40] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 20:50:52] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 20:50:52] [Success] [] Module imported. Configuration loaded.
+[2024-11-14 20:50:52] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 01:04:35] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 01:21:34] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 01:26:06] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 01:27:27] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 01:34:45] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 01:57:03] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:04:08] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:04:09] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:04:09] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:39:48] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:39:48] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:39:48] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:43:24] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:43:24] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:43:24] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:45:31] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:45:32] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 02:45:32] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 08:36:00] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 08:45:11] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 08:53:29] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 08:55:43] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 08:56:59] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 08:58:54] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 08:58:54] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 08:58:54] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 09:02:38] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 09:02:39] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 09:02:39] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 09:07:37] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 09:51:24] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 10:07:16] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 10:08:25] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 10:52:17] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 11:03:43] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 11:12:48] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 11:28:31] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 11:45:35] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 11:58:55] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 12:03:15] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 12:19:17] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 12:27:36] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 12:33:11] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 12:35:22] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 12:53:49] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 13:03:15] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 13:05:24] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 13:08:31] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 13:09:58] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 13:18:01] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 13:22:25] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 13:22:26] [Success] [] Module imported. Configuration loaded.
+[2024-11-15 13:22:26] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 07:23:18] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 07:23:18] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 07:23:18] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 07:23:18] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 07:23:18] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 07:23:18] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 09:22:51] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 20:29:13] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 20:33:35] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 20:52:34] [Success] [] Module imported. Configuration loaded.
+[2024-11-16 21:01:00] [Success] [] Module imported. Configuration loaded.

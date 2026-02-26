@@ -1,0 +1,124 @@
+{
+    "_meta":  {
+                  "description":  "Global configuration for OpsHostGuard",
+                  "author":  "Alberto Ledo - albertoledo@unex.es",
+                  "organization":  "IT Department, Faculty of Documentation and Communication Sciences at the University of Extremadura",
+                  "notes":  "This file contains global configurations used by PowerShell and PHP scripts."
+              },
+    "Config":  {
+                   "ReleaseTime":  "2025-12-10 13:00"
+               },
+    "Files":  {
+                  "VersionFile":  ".VERSION",
+                  "JsonUserConfig":  "config/user_config.json",
+                  "JsonOpsConfig":  "config/ops_config.json",
+                  "LogFile":  "log/opshostguard.log",
+                  "FallbackLogFile":  "log/fallback-log.log",
+                  "DataLogFile":  "data/log/opshostguard_tracking.log",
+                  "DataCsvFile":  "data/csv/opshostguard_tracking.csv",
+                  "JsonHostsGroups":  "config/host_groups.json",
+                  "JsonMacGroups":  "config/hosts_mac.json"
+              },
+    "LogCore":  {
+                    "ActiveSessions":  "log/modules/sessions/standalone.log",
+                    "StartHosts":  "log/modules/start/standalone.log",
+                    "StopHosts":  "log/modules/stop/standalone.log",
+                    "UpdateHosts":  "log/modules/update/standalone.log",
+                    "HostsLoad":  "log/modules/load/standalone.log",
+                    "DataManager":  "log/modules/datamanager/standalone.log"
+                },
+    "Modules":  [
+                    {
+                        "Name":  "OpsVar",
+                        "Path":  "modules/core/system/OpsVar.psd1",
+                        "Priority":  0
+                    },
+                    {
+                        "Name":  "OpsInit",
+                        "Path":  "modules/core/system/OpsInit.psd1",
+                        "Priority":  1
+                    },
+                    {
+                        "Name":  "LogManager",
+                        "Path":  "modules/core/system/LogManager.psd1",
+                        "Priority":  2
+                    },
+                    {
+                        "Name":  "OpsBase",
+                        "Path":  "modules/core/system/OpsBase.psd1",
+                        "Priority":  3
+                    },
+                    {
+                        "Name":  "CredentialsManager",
+                        "Path":  "modules/security/CredentialsManager.psd1",
+                        "Priority":  4
+                    },
+                    {
+                        "Name":  "OpsUtils",
+                        "Path":  "modules/ops_utils/OpsUtils.psd1",
+                        "Priority":  5
+                    },
+                    {
+                        "Name":  "OpsAux",
+                        "Path":  "modules/ops_utils/OpsAux.psd1",
+                        "Priority":  6
+                    },
+                    {
+                        "Name":  "DataManager",
+                        "Path":  "modules/DataManager.psd1",
+                        "Priority":  7
+                    },
+                    {
+                        "Name":  "SqlQueries",
+                        "Path":  "modules/database/SqlQueries.psd1",
+                        "Priority":  8
+                    },
+                    {
+                        "Name":  "StartHosts",
+                        "Path":  "modules/core/hosts_management/StartHosts/StartHosts.psd1",
+                        "Priority":  9
+                    },
+                    {
+                        "Name":  "ActiveSessions",
+                        "Path":  "modules/core/hosts_management/ActiveSessions/ActiveSessions.psd1",
+                        "Priority":  10
+                    },
+                    {
+                        "Name":  "UpdateHosts",
+                        "Path":  "modules/core/hosts_management/UpdateHosts/UpdateHosts.psd1",
+                        "Priority":  11
+                    },
+                    {
+                        "Name":  "HostsLoad",
+                        "Path":  "modules/core/hosts_management/HostsLoad/HostsLoad.psd1",
+                        "Priority":  12
+                    },
+                    {
+                        "Name":  "StopHosts",
+                        "Path":  "modules/core/hosts_management/StopHosts/StopHosts.psd1",
+                        "Priority":  13
+                    },
+                    {
+                        "Name":  "ReportGenerationUtils",
+                        "Path":  "modules/ops_utils/ReportGenerationUtils.psd1",
+                        "Priority":  14
+                    },
+                    {
+                        "Name":  "SessionManagementUtils",
+                        "Path":  "modules/ops_utils/SessionManagementUtils.psd1",
+                        "Priority":  15
+                    }
+                ],
+    "Plugins":  {
+                    "ModuloPrueba":  "C:\\xampp\\htdocs\\opshostguard\\modules\\plugins\\ModuloPrueba.psd1",
+                    "ModuloPrueba2":  "C:\\xampp\\htdocs\\opshostguard\\modules\\plugins\\ModuloPrueba2.psd1",
+                    "ModuloPrueba3":  "C:\\xampp\\htdocs\\opshostguard\\modules\\plugins\\PruebaRecursividad\\ModuloPrueba3.psd1"
+                },
+    "Security":  {
+                     "PsRemotingCredential":  "modules/security/credentials/ps_remoting.xml",
+                     "UserDatabase":  "modules/security/credentials/user_db.xml",
+                     "PasswdDatabase":  "modules/security/credentials/passwd_db.xml",
+                     "UserDashboard":  "modules/security/credentials/user_dashboard.xml",
+                     "PasswdDashboard":  "modules/security/credentials/passwd_dashboard.xml"
+                 }
+}

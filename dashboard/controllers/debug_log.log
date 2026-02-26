@@ -1,0 +1,900 @@
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name C:/xampp/htdocs/opshostguard/modules/core/system/OpsInit.psm1; Import-Module -Name C:/xampp/htdocs/opshostguard/modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 06:34:56] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 06:34:56] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 06:34:56] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 06:34:56] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 06:34:56] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 06:34:56] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 06:34:57] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2024-12-22 06:34:56
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name C:/xampp/htdocs/opshostguard/modules/core/system/OpsInit.psm1; Import-Module -Name C:/xampp/htdocs/opshostguard/modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 06:34:57] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 06:34:57] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 06:34:57] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 06:34:57] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 06:34:57] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 06:34:57] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 06:34:57] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2024-12-22 06:34:57
+    [18] => Dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: Dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: Dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 06:37:52] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 06:37:52] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 06:37:52] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 06:37:52] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 06:37:52] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 06:37:52] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 06:37:52] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2024-12-22 06:37:52
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 06:37:53] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 06:37:53] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 06:37:53] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 06:37:53] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 06:37:53] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 06:37:53] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 06:37:53] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2024-12-22 06:37:53
+    [18] => Dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: Dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: Dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 06:39:42] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 06:39:42] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 06:39:42] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 06:39:43] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 06:39:43] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 06:39:43] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 06:39:43] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2024-12-22 06:39:43
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 06:39:43] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 06:39:43] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 06:39:43] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 06:39:43] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 06:39:43] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 06:39:43] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 06:39:43] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2024-12-22 06:39:43
+    [18] => Dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: Dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: Dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 06:40:11] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 06:40:11] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 06:40:11] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 06:40:11] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 06:40:11] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 06:40:11] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 06:40:11] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2024-12-22 06:40:11
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 06:40:11] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 06:40:11] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 06:40:11] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 06:40:11] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 06:40:11] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 06:40:11] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 06:40:11] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2024-12-22 06:40:11
+    [18] => Dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: Dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: Dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 07:17:53] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 07:17:53] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 07:17:53] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 07:17:53] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 07:17:53] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 07:17:53] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 07:17:53] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2024-12-22 07:17:53
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-22 07:17:54] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-22 07:17:54] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-22 07:17:54] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-22 07:17:54] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-22 07:17:54] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-22 07:17:54] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/22/2024 07:17:54] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2024-12-22 07:17:54
+    [18] => Dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: Dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: Dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-23 12:28:09] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-23 12:28:09] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-23 12:28:09] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-23 12:28:09] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-23 12:28:09] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-23 12:28:09] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/23/2024 12:28:09] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2024-12-23 12:28:09
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-23 12:28:09] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-23 12:28:09] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-23 12:28:09] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-23 12:28:09] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-23 12:28:09] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-23 12:28:09] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/23/2024 12:28:09] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2024-12-23 12:28:09
+    [18] => Dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: Dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: Dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-30 02:51:45] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-30 02:51:45] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-30 02:51:45] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-30 02:51:45] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-30 02:51:45] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-30 02:51:45] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/30/2024 02:51:45] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2024-12-30 02:51:45
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-30 02:51:45] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-30 02:51:45] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-30 02:51:45] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-30 02:51:45] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-30 02:51:45] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-30 02:51:45] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/30/2024 02:51:45] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2024-12-30 02:51:45
+    [18] => Dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: Dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: Dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-30 05:45:47] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-30 05:45:47] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-30 05:45:47] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-30 05:45:47] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-30 05:45:47] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-30 05:45:47] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/30/2024 05:45:47] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2024-12-30 05:45:47
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2024-12-30 05:45:48] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2024-12-30 05:45:48] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2024-12-30 05:45:48] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2024-12-30 05:45:48] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2024-12-30 05:45:48] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2024-12-30 05:45:48] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/30/2024 05:45:48] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2024-12-30 05:45:48
+    [18] => Dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: Dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: Dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-10 11:34:14] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-10 11:34:14] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-10 11:34:14] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-10 11:34:15] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-10 11:34:15] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => No se puede convertir el argumento "s", con el valor: "fcdyc", para "SecureStringToBSTR", al tipo
+    [15] => "System.Security.SecureString": "No se puede convertir el valor "fcdyc" de tipo "System.String" al tipo
+    [16] => "System.Security.SecureString"."
+    [17] => En C:\xampp\htdocs\opshostguard\modules\security\credentialsManager.psm1: 236 Car cter: 9
+    [18] => +         $Credential = [System.Runtime.InteropServices.Marshal]::PtrTo ...
+    [19] => +         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    [20] =>     + CategoryInfo          : NotSpecified: (:) [], MethodException
+    [21] =>     + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+    [22] => 
+    [23] => catch : El t‚rmino 'catch' no se reconoce como nombre de un cmdlet, funci¢n, archivo de script o programa ejecutable.
+    [24] => Compruebe si escribi¢ correctamente el nombre o, si incluy¢ una ruta de acceso, compruebe que dicha ruta es correcta e
+    [25] => int‚ntelo de nuevo.
+    [26] => En C:\xampp\htdocs\opshostguard\modules\security\credentialsManager.psm1: 252 Car cter: 5
+    [27] => +     catch {
+    [28] => +     ~~~~~
+    [29] =>     + CategoryInfo          : ObjectNotFound: (catch:String) [], CommandNotFoundException
+    [30] =>     + FullyQualifiedErrorId : CommandNotFoundException
+    [31] => 
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-10 11:34:18] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-10 11:34:18] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-10 11:34:18] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-10 11:34:18] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-10 11:34:18] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => No se puede convertir el argumento "s", con el valor: "dantuin2", para "SecureStringToBSTR", al tipo
+    [15] => "System.Security.SecureString": "No se puede convertir el valor "dantuin2" de tipo "System.String" al tipo
+    [16] => "System.Security.SecureString"."
+    [17] => En C:\xampp\htdocs\opshostguard\modules\security\credentialsManager.psm1: 236 Car cter: 9
+    [18] => +         $Credential = [System.Runtime.InteropServices.Marshal]::PtrTo ...
+    [19] => +         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    [20] =>     + CategoryInfo          : NotSpecified: (:) [], MethodException
+    [21] =>     + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+    [22] => 
+    [23] => catch : El t‚rmino 'catch' no se reconoce como nombre de un cmdlet, funci¢n, archivo de script o programa ejecutable.
+    [24] => Compruebe si escribi¢ correctamente el nombre o, si incluy¢ una ruta de acceso, compruebe que dicha ruta es correcta e
+    [25] => int‚ntelo de nuevo.
+    [26] => En C:\xampp\htdocs\opshostguard\modules\security\credentialsManager.psm1: 252 Car cter: 5
+    [27] => +     catch {
+    [28] => +     ~~~~~
+    [29] =>     + CategoryInfo          : ObjectNotFound: (catch:String) [], CommandNotFoundException
+    [30] =>     + FullyQualifiedErrorId : CommandNotFoundException
+    [31] => 
+)
+
+Return Code: 0
+Error: Empty or invalid PowerShell output.
+User Output: Array
+(
+    [output] => Array
+        (
+            [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [1] => [2025-12-10 11:34:14] [Info] [] Starting OpsHostGuard...
+            [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [3] => [2025-12-10 11:34:14] [Info] [] Routes and Logs initialization completed.
+            [4] => C:\xampp\htdocs\opshostguard\
+            [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [6] => [2025-12-10 11:34:14] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+            [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [8] => [2025-12-10 11:34:15] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+            [9] => @{Files=}
+            [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+            [11] => modules/security/credentials/ps_remoting.xml
+            [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [13] => [2025-12-10 11:34:15] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+            [14] => No se puede convertir el argumento "s", con el valor: "fcdyc", para "SecureStringToBSTR", al tipo
+            [15] => "System.Security.SecureString": "No se puede convertir el valor "fcdyc" de tipo "System.String" al tipo
+            [16] => "System.Security.SecureString"."
+            [17] => En C:\xampp\htdocs\opshostguard\modules\security\credentialsManager.psm1: 236 Car cter: 9
+            [18] => +         $Credential = [System.Runtime.InteropServices.Marshal]::PtrTo ...
+            [19] => +         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            [20] =>     + CategoryInfo          : NotSpecified: (:) [], MethodException
+            [21] =>     + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+            [22] => 
+            [23] => catch : El t‚rmino 'catch' no se reconoce como nombre de un cmdlet, funci¢n, archivo de script o programa ejecutable.
+            [24] => Compruebe si escribi¢ correctamente el nombre o, si incluy¢ una ruta de acceso, compruebe que dicha ruta es correcta e
+            [25] => int‚ntelo de nuevo.
+            [26] => En C:\xampp\htdocs\opshostguard\modules\security\credentialsManager.psm1: 252 Car cter: 5
+            [27] => +     catch {
+            [28] => +     ~~~~~
+            [29] =>     + CategoryInfo          : ObjectNotFound: (catch:String) [], CommandNotFoundException
+            [30] =>     + FullyQualifiedErrorId : CommandNotFoundException
+            [31] => 
+        )
+
+    [returnVar] => 0
+)
+
+Password Output: Array
+(
+    [output] => Array
+        (
+            [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [1] => [2025-12-10 11:34:18] [Info] [] Starting OpsHostGuard...
+            [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [3] => [2025-12-10 11:34:18] [Info] [] Routes and Logs initialization completed.
+            [4] => C:\xampp\htdocs\opshostguard\
+            [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [6] => [2025-12-10 11:34:18] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+            [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [8] => [2025-12-10 11:34:18] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+            [9] => @{Files=}
+            [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+            [11] => modules/security/credentials/ps_remoting.xml
+            [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+            [13] => [2025-12-10 11:34:18] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+            [14] => No se puede convertir el argumento "s", con el valor: "dantuin2", para "SecureStringToBSTR", al tipo
+            [15] => "System.Security.SecureString": "No se puede convertir el valor "dantuin2" de tipo "System.String" al tipo
+            [16] => "System.Security.SecureString"."
+            [17] => En C:\xampp\htdocs\opshostguard\modules\security\credentialsManager.psm1: 236 Car cter: 9
+            [18] => +         $Credential = [System.Runtime.InteropServices.Marshal]::PtrTo ...
+            [19] => +         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            [20] =>     + CategoryInfo          : NotSpecified: (:) [], MethodException
+            [21] =>     + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+            [22] => 
+            [23] => catch : El t‚rmino 'catch' no se reconoce como nombre de un cmdlet, funci¢n, archivo de script o programa ejecutable.
+            [24] => Compruebe si escribi¢ correctamente el nombre o, si incluy¢ una ruta de acceso, compruebe que dicha ruta es correcta e
+            [25] => int‚ntelo de nuevo.
+            [26] => En C:\xampp\htdocs\opshostguard\modules\security\credentialsManager.psm1: 252 Car cter: 5
+            [27] => +     catch {
+            [28] => +     ~~~~~
+            [29] =>     + CategoryInfo          : ObjectNotFound: (catch:String) [], CommandNotFoundException
+            [30] =>     + FullyQualifiedErrorId : CommandNotFoundException
+            [31] => 
+        )
+
+    [returnVar] => 0
+)
+
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-10 12:35:52] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-10 12:35:52] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-10 12:35:52] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-10 12:35:52] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-10 12:35:52] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-10 12:35:52] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/10/2025 12:35:52] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2025-12-10 12:35:52
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-10 12:35:54] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-10 12:35:54] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-10 12:35:54] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-10 12:35:54] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-10 12:35:54] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-10 12:35:54] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/10/2025 12:35:54] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2025-12-10 12:35:54
+    [18] => dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-10 12:48:39] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-10 12:48:39] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-10 12:48:40] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-10 12:48:40] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-10 12:48:40] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-10 12:48:40] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/10/2025 12:48:40] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2025-12-10 12:48:40
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-10 12:48:41] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-10 12:48:41] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-10 12:48:41] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-10 12:48:41] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-10 12:48:41] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-10 12:48:41] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/10/2025 12:48:41] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2025-12-10 12:48:41
+    [18] => dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-12 08:58:05] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-12 08:58:05] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-12 08:58:05] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-12 08:58:05] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-12 08:58:05] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-12 08:58:05] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/12/2025 08:58:05] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2025-12-12 08:58:05
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-12 08:58:06] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-12 08:58:06] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-12 08:58:06] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-12 08:58:06] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-12 08:58:06] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-12 08:58:06] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/12/2025 08:58:07] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2025-12-12 08:58:06
+    [18] => dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-12 11:30:52] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-12 11:30:52] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-12 11:30:52] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-12 11:30:52] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-12 11:30:53] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-12 11:30:53] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/12/2025 11:30:53] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2025-12-12 11:30:53
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-12 11:30:54] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-12 11:30:54] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-12 11:30:54] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-12 11:30:54] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-12 11:30:54] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-12 11:30:54] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/12/2025 11:30:54] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2025-12-12 11:30:54
+    [18] => dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: dantuin2
+Authentication successful for user: fcdyc
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/user_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-12 11:34:30] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-12 11:34:30] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-12 11:34:30] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-12 11:34:30] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-12 11:34:30] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/user_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-12 11:34:31] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/user_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/12/2025 11:34:31] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/user_dashboard.xml at 2025-12-12 11:34:31
+    [18] => fcdyc
+)
+
+Return Code: 0
+Executing Command: powershell.exe -ExecutionPolicy Bypass -Command "Import-Module -Name ./../../modules/core/system/OpsInit.psm1; Import-Module -Name ./../../modules/security/credentialsManager.psm1; Get-Credential -credentialFilePath './modules/security/credentials/passwd_dashboard.xml'"
+Output: Array
+(
+    [0] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [1] => [2025-12-12 11:34:32] [Info] [] Starting OpsHostGuard...
+    [2] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [3] => [2025-12-12 11:34:32] [Info] [] Routes and Logs initialization completed.
+    [4] => C:\xampp\htdocs\opshostguard\
+    [5] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [6] => [2025-12-12 11:34:32] [Info] [Initialize-SecurityData] Starting initialization of Security Data
+    [7] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [8] => [2025-12-12 11:34:32] [Success] [Initialize-SecurityData] Security Data initialized successfully.
+    [9] => @{Files=}
+    [10] => @{PsRemotingCredential=modules/security/credentials/ps_remoting.xml; UserDatabase=modules/security/credentials/user_db.xml; PasswdDatabase=modules/security/credentials/passwd_db.xml; UserDashboard=modules/security/credentials/user_dashboard.xml; PasswdDashboard=modules/security/credentials/passwd_dashboard.xml}
+    [11] => modules/security/credentials/ps_remoting.xml
+    [12] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [13] => [2025-12-12 11:34:32] [Info] [Get-Credential] Attempting to retrieve credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [14] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [15] => [2025-12-12 11:34:32] [Success] [Get-Credential] Successfully retrieved credential from file: ./modules/security/credentials/passwd_dashboard.xml
+    [16] => [Info] Log directory exists: C:\xampp\htdocs\opshostguard\log
+    [17] => [12/12/2025 11:34:32] [Fallback] [Audit] [Add-LogMessage] Credential retrieved for file: ./modules/security/credentials/passwd_dashboard.xml at 2025-12-12 11:34:32
+    [18] => dantuin2
+)
+
+Return Code: 0
+Input Credentials:
+Username: fcdyc
+Password: dantuin2
+Parsed Credentials:
+Username: fcdyc
+Password: dantuin2
+Authentication successful for user: fcdyc

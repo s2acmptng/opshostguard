@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    min-height: 100vh;
+    /* Asegura el centrado vertical */
+}
+
+/* Ajusta la barra de navegación superior */
+.top-menu {
+    background-color: #2c3e50;
+    position: fixed;
+    top: 10px;
+    width: 63%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Icono de la izquierda (Home) */
+.top-menu a:first-child {
+    margin-left: 20px;
+}
+
+/* Icono de la derecha (Logout) */
+.top-menu a:last-child {
+    margin-right: 20px;
+}
+
+/* Iconos y textos en la barra de navegación superior */
+.top-menu .nav-icon,
+.top-menu .nav-text,
+.side-menu .menu-option {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Hover en la barra de navegación superior */
+.top-menu a:hover,
+.side-menu .menu-option:hover {
+    background-color: #365899;
+}
+
+/* Ajusta el tamaño del icono en la barra superior */
+.top-menu .nav-icon {
+    font-size: 18px;
+    padding: 0 8px;
+}
+
+/* Menú lateral */
+.side-menu {
+    position: fixed;
+    top: 50% !important;
+    left: -180px;
+    width: 200px;
+    height: 60%;
+    background-color: #2c3e50;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding-top: 2rem;
+    z-index: 900;
+    transform: translateY(-50%) !important;
+    border-radius: 0px 5px 5px 0px;
+    overflow: hidden;
+    transition: left 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Menú lateral desplegado al hacer hover */
+.side-menu:hover {
+    left: 0;
+}
+
+/* Opciones de menú lateral */
+.side-menu .menu-option {
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo específico para el botón de Logout */
+.side-menu .menu-option.logout {
+    margin-top: auto;
+    padding-bottom: 2rem;
+}
+
+/* Hover sobre opciones del menú lateral */
+.side-menu .menu-option:hover {
+    background-color: #365899;
+}
+
+.side-menu .menu-option a {
+    color: #ffffff;
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+}
+
+.side-menu .menu-option a:hover {
+    color: #ffffff; /* Mantiene el color blanco al hacer hover */
+    text-decoration: underline; /* Opcional: añade subrayado al hacer hover */
+}
+
+/* Main Content Area */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Row for Select Group and Select Host */
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Icon Card Grid Layout */
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Icon Card Styling */
+.icon-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    color: #2c3e50;
+}
+
+.icon-card:hover {
+    background-color: #e7f3ff;
+    transform: translateY(-5px);
+}
+
+/* Icon and label styling */
+.icon-card i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.icon-label {
+    font-size: 0.9rem;
+    color: #1a2f40;
+}
+
+
+/* Leyenda en la esquina inferior izquierda */
+.footer-legend {
+    position: fixed;
+    bottom: 10px;
+    margin-top: 20px;
+    right: 55px;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #1a2f40;
+    font-family: 'Lato', sans-serif;
+    padding: 5px 10px;
+    border-top: 1px solid #1a2f40;
+    border-bottom: 1px solid #1a2f40;
+    background-color: #f0f2f5;
+    z-index: 1000;
+    /* Asegura que la leyenda esté encima de otros elementos */
+}
+
+.footer-logo {
+    position: fixed;
+    bottom: 40px; /* Ajusta según el diseño */
+    right: 100px; /* Ajusta según el diseño */
+    margin-bottom: 30px;
+    transform: scale(1.8);
+}
+
